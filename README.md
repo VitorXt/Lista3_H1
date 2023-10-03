@@ -11,10 +11,10 @@ Lista 3 de atividade de Desenvolvimento Web - 4° Período Uniaraxá
   <br>
   <br>
     <h3>Questão 2: Em sala no início da disciplina criamos e comentamos que nossa API estava com muitas responsabilidades( regras de negócio , validações, persistência) , ferindo assim qual princípio? Descreva o princípio e o que a partir de então começamos a fazer para corrigir isso?:</h3>
-	  <p>Camada de Domain: Nessa camada, definimos e implementamos as entidades de negócio e as regras de domínio da aplicação. É onde as classes com propriedades de set privado são comuns, garantindo a encapsulação dos dados e fornecendo uma interface controlada para acessá-los.</p>
-	<p>Camada de Data: Responsável pela interação com o banco de dados ou qualquer mecanismo de armazenamento de dados. Aqui, definimos os repositórios e as classes de acesso aos dados.</p>
-	<p>Camada de Application: É onde reside a lógica da aplicação, incluindo serviços que coordenam as operações e interagem com as camadas de Domain e Data. Também é onde os DTOs (Data Transfer Objects) podem ser usados para transferir dados entre a camada de API e a camada de Domain sem expor detalhes desnecessários.</p>
-	<p>Camada de API: A camada de API é responsável por lidar com as solicitações HTTP, gerenciar autenticação e autorização, e expor os endpoints para os clientes. Ela utiliza os serviços da camada de Application para atender às solicitações e fornecer respostas adequadas.</p>
+	<p>- Camada de Domain: Nessa camada, definimos e implementamos as entidades de negócio e as regras de domínio da aplicação. É onde as classes com propriedades de set privado são comuns, garantindo a encapsulação dos dados e fornecendo uma interface controlada para acessá-los.</p>
+	<p>- Camada de Data: Responsável pela interação com o banco de dados ou qualquer mecanismo de armazenamento de dados. Aqui, definimos os repositórios e as classes de acesso aos dados.</p>
+	<p>- Camada de Application: É onde reside a lógica da aplicação, incluindo serviços que coordenam as operações e interagem com as camadas de Domain e Data. Também é onde os DTOs (Data Transfer Objects) podem ser usados para transferir dados entre a camada de API e a camada de Domain sem expor detalhes desnecessários.</p>
+	<p>- Camada de API: A camada de API é responsável por lidar com as solicitações HTTP, gerenciar autenticação e autorização, e expor os endpoints para os clientes. Ela utiliza os serviços da camada de Application para atender às solicitações e fornecer respostas adequadas.</p>
 	
   <br>
   <br>
